@@ -1,0 +1,28 @@
+*, *::before, *::after {
+  box-sizing:border-box;
+  border-collapse:collapse;
+}
+
+/* Variables */
+:root {
+  --font1: sans-serif;
+  --fsb: 16px;
+}
+
+body {
+  padding: 0 2em; margin: 0;
+  font-family: var(--font1);
+  font-size: var(--fsb);
+}
+
+h1 {font-weight: bolder;}
+
+h2 {margin-top:2em;}
+
+pre {
+  background: darkgreen;
+  color:lightgrey;
+  padding: 10px;
+}
+
+.resalt {background:yellow;}
