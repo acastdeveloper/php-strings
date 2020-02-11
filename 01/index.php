@@ -5,12 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>1. Funcions strlen(), str_world_count(), strrev(), strpos(), str_replace() </title>
+  <meta name="keywords" content="strlen(), str_world_count(), strrev(), strpos(), str_replace(), longitud, cadena, subcadena, invertir cadena, posició subcadena, substituir">
   <link rel="stylesheet" href="../style.css">
 
 </head>
 <body>
   <h1>1. Funcions strlen(), str_world_count(), strrev(), strpos(), str_replace()</h1>
-
+  <p>Veurem les funcions següents:</p>
+  <ul>
+   <li><strong class="resalt">strlen</strong> per mesurar el número de caràcters d'una cadena.</li>
+   <li><strong class="resalt">str_word_count</strong> per comptar les paraules que hi ha a una cadena.</li>
+   <li><strong class="resalt">strrev</strong> per invertir l'ordre dels caràcters d'una cadena.</li>
+   <li><strong class="resalt">strpos</strong> per localitzar la posició de la primera aparició d'una subcadena dins d'una cadena.</li>
+   <li><strong class="resalt">str_replace</strong> per substituir una subcadena per una altra dins d'una cadena.</li>
+  </ul>
   <h2><span class="resalt">strlen(<em>string</em>):</span> Longitud d'una cadena</h2>
     <p>Ens diu la longitud de caràcters que té una cadena.</p>
     <pre>
